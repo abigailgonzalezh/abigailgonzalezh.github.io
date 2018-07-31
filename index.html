@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Created by Abigail González Hidalgo -->
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Custom styles for this template -->
+	<link href="css/3-col-portfolio.css" rel="stylesheet">
+	<!-- Typography - Google Fonts -->	
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<!-- Smooth Scroll -->	
+	<script src="js/smooth-scroll.min.js"></script>
+	<script>
+		smoothScroll.init({
+			selector: '[data-scroll]',
+			selectorHeader: null,
+			speed: 500,
+			easing: 'easeInOutCubic',
+			offset: 0,
+			callback: function(anchor, toggle){}
+		});
+	</script>
+	<!-- Smooth Reveal -->	
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+	<!-- Title -->
+	<title>Abigail González</title>
+
+	<!-- Styles -->
+	<style>
+	html{
+		font-size: 16px;
+	}
+	p{
+		font-size: 20rem;
+	}
+	.slider{
+		background: url(img/bg1.png);
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+	}
+</style>
+</head>
+
+<!-- Body -->
+<body>
+
+	<!-- Navigation -->	
+	<section class="container-fluid slider"></section>
+
+	<nav class="navbar sticky-top navbar-expand-md navbar-light" style="background-color: #FFE0DE;">
+		<div class="container-fluid" style="font-family: Courgette, cursive; font-size: 30px">
+			<a class="navbar-brand" href="index.html" style="font-family: Raleway, sans-serif; font-size: 40px"><img src="img/logo_ag_cuadrado.svg" width="100" height="100" class="img-fluid" alt="Logo Abigail González">Abigail González</img></a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01">
+				<span class="navbar-toggler-icon"></span>
+			</button>	
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" data-scroll href="#About Me">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" data-scroll href="#Projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" data-scroll href="https://drive.google.com/file/d/1gKCJD8YdaV6axI0TRfl8CpolJwfZ5XkM/view?usp=sharing">Resume</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" data-scroll href="#Contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Sections -->	
+	<div class="container mt-5 pt-5" id="About Me">
+		<div class="fotoPerfil">
+			<img src="img/yo2.png" class="img-fluid mx-auto d-block mt-5 pt-5" alt="Responsive image" width="300" height="300">
+		</div>
+	</div>
+	<div class="container mt-5">
+		<h1 id="titulo1" class="text-center text-uppercase" style="font-family: Raleway, sans-serif; font-size: 40px">About Me</h1>
+		<p align="center" class="text-center" id="parrafo1" style="font-family: Raleway, sans-serif; font-size: 20px">
+			Hi! I'm Abigail, a passionate student of B.S. Computer Science and Technology at Instituto Tecnológico y de Estudios Superiores de Monterrey in Mexico. I have knowledge in object-oriented programming, web development, data structure and interactive design. I became interested in technology when I was a child, thanks to video games since then I have been passionate about learning subjects related to technology.
+		</p>
+	</div>
+
+
+	<div class="container mt-5 pt-5"></div>
+
+
+	<div class="container mt-5 pt-5" id="Projects">
+		<div class="container mt-4 pt-4"></div>
+		<div class="container mt-4 pt-4"></div>
+		<h1 id="titulo1" class="text-center text-uppercase" style="font-family: Raleway, sans-serif; font-size: 40px">Projects</h1>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<img class="card-img-top" src="img/batallanaval3.png" alt="batallaNaval">
+					<div class="card-body">
+						<h4 id="titulo2" class="card-title" style="font-family: Raleway, sans-serif; font-size: 30px">
+							Naval Battle
+						</h4>
+						<p class="card-text" style="font-family: Raleway, sans-serif; font-size: 20px">Development of a game simulator that uses the naval battle bases, allowing the user to compete against an artificial intelligence machine or against another player. You can start a new game, load a saved game and exit whenever you want. The game was developed with Java.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<img class="card-img-top" src="img/proyectopoo2.png" alt="videogameStorageSystem">
+					<div class="card-body">
+						<h4 class="card-title" style="font-family: Raleway, sans-serif; font-size: 30px">
+							Videogame Storage System
+						</h4>
+						<p class="card-text" style="font-family: Raleway, sans-serif; font-size: 20px">This system helps you store your video games by genre like sports, RPG, action, shooters, etc. It lets you insert, delete, show, arrange, search, safe, favorite, delete from favorites, show favorites and exit the program. This system was developed with Java.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<img class="card-img-top" src="img/tecride.png" alt="tecRide">
+					<div class="card-body">
+						<h4 class="card-title" style="font-family: Raleway, sans-serif; font-size: 30px">
+							TecRide
+						</h4>
+						<p class="card-text" style="font-family: Raleway, sans-serif; font-size: 20px">Prototype design of a mobile application that allowed the students of the Tecnológico de Monterrey, Campus Puebla to acquire a transportation service given by another student. The student that gave the transportation service would obtain a reward like coupons for the cafeteria or social service hours. This prototype was developed with iRise.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<img class="card-img-top" src="img/magicmoments.png" alt="magicMoments">
+					<div class="card-body">
+						<h4 class="card-title" style="font-family: Raleway, sans-serif; font-size: 30px">
+							Magic Moments (Hackaton)
+						</h4>
+						<p class="card-text" style="font-family: Raleway, sans-serif; font-size: 20px">Magic Moments is an iOs application prototype that allows people with different disabilites to find restaurants, services and leisure activities that are tailored for their needs. For example, if a person with blindless is looking for a restaurant this app would show them different restaurants, that are nearby, that have braille menus. This prototype was made with JustInMind.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<img class="card-img-top" src="img/hilfe1.png" alt="Hilfe">
+					<div class="card-body">
+						<h4 class="card-title" style="font-family: Raleway, sans-serif; font-size: 30px">
+							Hilfe (Hackaton)
+						</h4>
+						<p class="card-text" style="font-family: Raleway, sans-serif; font-size: 20px">Hilfe is the name of a website that serves as a memorial for people who have been killed, kidnapped or disappeared in Mexico. This website was made like an artistic protest for all the insecurity problems that Mexico is having now, we wanted to make a memorial for people to not forget about the problems we have in this country. This website was made with JustInMind.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<img class="card-img-top" src="img/ghogar1.png" alt="gHogar">
+					<div class="card-body">
+						<h4 class="card-title" style="font-family: Raleway, sans-serif; font-size: 30px">
+							G-Hogar
+						</h4>
+						<p class="card-text" style="font-family: Raleway, sans-serif; font-size: 20px">Website for a local store named G-Hogar. This website was developed with HTML, CSS and Bootstrap 4.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<img class="card-img-top" src="img/life.png" alt="Hilfe">
+					<div class="card-body">
+						<h4 class="card-title" style="font-family: Raleway, sans-serif; font-size: 30px">
+							Life
+						</h4>
+						<p class="card-text" style="font-family: Raleway, sans-serif; font-size: 20px">Life is a video game set in a post-apocalyptical world where the protagonist is a little girl named Lucy who tries to fix everything by collecting orbs that eventually will grant them the opportunity to fix earth.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<img class="card-img-top" src="img/biohuacal.png" alt="biohuacal">
+					<div class="card-body">
+						<h4 class="card-title" style="font-family: Raleway, sans-serif; font-size: 30px">
+							Biohuacal
+						</h4>
+						<p class="card-text" style="font-family: Raleway, sans-serif; font-size: 20px">Website for a local store named Biohuacal. This website was developed with HTML, CSS and Bootstrap 4.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="container mt-5 pt-5"></div>
+
+	<!-- Footer -->
+	<footer class="mt-3 pt-5 sticky-bottom" style="background-color:#FFE0DE;" id="Contact">
+		<div class="text-center">
+			<a href="mailto:abigailgonzalezh@gmail.com"><img class="rounded" src="img/mail.png" alt="mail"></a>
+			<a href="https://github.com/abigailgonzalezh"><img class="rounded" src="img/github.png" alt="github"></a>
+			<a href="https://www.linkedin.com/in/abigail-gonzález-hidalgo-984a80151"><img class="rounded" src="img/in.png" alt="linkedin"></a>
+			<a href="https://devpost.com/abigailgonzalezh?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"><img class="rounded" src="img/devpost.png" alt="devpost"></a>
+		</div>
+		<div class="container text-center">
+			<p class="m-0 text-center text-black" style="font-family: Raleway, sans-serif; font-size: 20px">CONTACT ME</p>
+		</div>
+		<!--
+		<div class="text-center" style="font-family: Raleway, sans-serif; font-size: 10px">Icons made by <a href="https://www.flaticon.com/authors/dimitry-miroliubov" title="Dimitry Miroliubov">Dimitry Miroliubov</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		<div class="text-center" style="font-family: Raleway, sans-serif; font-size: 10px">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		<div class="text-center" style="font-family: Raleway, sans-serif; font-size: 10px">Icons made by <a href="https://www.flaticon.com/authors/elegant-themes" title="Elegant Themes">Elegant Themes</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		<div class="text-center" style="font-family: Raleway, sans-serif; font-size: 10px">Icons made by <a href="https://www.flaticon.com/authors/zurb" title="Zurb">Zurb</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+	-->
+</footer>
+
+
+
+<!-- Bootstrap 4 Scripts -->	
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Scripts -->
+<script>
+	window.sr = ScrollReveal();
+	sr.reveal('.navbar', {
+		duration: 2000,
+		origin: 'bottom',
+	});
+	sr.reveal('.slider', {
+		duration: 2000,
+		origin: 'bottom'
+	});
+	sr.reveal('.fotoPerfil', {
+		duration: 2000,
+		origin: 'top'
+	});
+	sr.reveal('.text-center', {
+		duration: 2000,
+		origin: 'top',
+	});
+	sr.reveal('.card', {
+		duration: 2000,
+		origin: 'top',
+	});
+</script>
+</body>
+</html>
