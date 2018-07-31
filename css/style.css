@@ -1,7 +1,9 @@
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
+h1 {
+  font-size: 5.9vw;
 }
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
 }
